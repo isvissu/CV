@@ -1,0 +1,276 @@
+\documentclass[letterpaper,11pt]{article}
+\newlength{\outerbordwidth}
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\usepackage[svgnames]{xcolor}
+\usepackage{framed}
+\usepackage{tocloft}
+
+
+%-----------------------------------------------------------
+%Edit these values as you see fit
+
+\setlength{\outerbordwidth}{3pt}  % Width of border outside of title bars
+\definecolor{shadecolor}{gray}{0.75}  % Outer background color of title bars (0 = black, 1 = white)
+\definecolor{shadecolorB}{gray}{0.93}  % Inner background color of title bars
+
+
+%-----------------------------------------------------------
+%Margin setup
+
+\setlength{\evensidemargin}{-0.25in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\paperheight}{11in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\tabcolsep}{0in}
+\setlength{\textheight}{9.5in}
+\setlength{\textwidth}{7in}
+\setlength{\topmargin}{-0.3in}
+\setlength{\topskip}{0in}
+\setlength{\voffset}{0.1in}
+
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{\vspace{8pt}
+  \parbox{\textwidth}{\setlength{\FrameSep}{\outerbordwidth}
+    \begin{shaded}
+\setlength{\fboxsep}{0pt}\framebox[\textwidth][l]{\setlength{\fboxsep}{4pt}\fcolorbox{shadecolorB}{shadecolorB}{\textbf{\sffamily{\mbox{~}\makebox[6.762in][l]{\large #1} \vphantom{p\^{E}}}}}}
+    \end{shaded}
+  }\vspace{-5pt}
+}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\cftdotfill{\cftsecdotsep}\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+
+\begin{document}
+
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+\textbf{\Large Viswateja Gajulavarthy} & \textbf{\today} \\
+BTech Computer Science and Engineering & isvissu@gmail.com \\
+A 404 PGR Lake View Towers Warangal & 7065636425 \\
+\end{tabular*}
+\\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{EDUCATION}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+
+\item \ressubheading{Indian Institute of Technology Delhi}{Delhi, India}{BTech in Computer Science and Engineering}{2017}
+
+%\begin{itemize}
+%	\resitem{Additional description nr 1}
+%	\resitem{Additional description nr 2}
+%\end{itemize}
+
+\item \ressubheading{Sri Chaitanya collage}{Vijayawada, India}{ Intermediate first and second year }{2011}
+\item \ressubheading{Gowtam Concept School}{Vijayawada, India}{ Senior School }{2009}
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{SCHOLASTIC ACHIEVEMENTS}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\vspace{-2pt}
+	\begin{center}\begin{tabular*}{6.6in}{l@{\extracolsep{\fill}}r}
+		\multicolumn{2}{c}{South Indian Maths Olympaid \cftdotfill{\cftdotsep} 11th rank}\\
+        \multicolumn{2}{c}{Indian Chemistry Olympaid \cftdotfill{\cftdotsep} qualified for the Indian Chemistry Olympaid}\\
+        \multicolumn{2}{c}{Joint Entrance Examination \cftdotfill{\cftdotsep} 37th(SC) rank}\\
+        \multicolumn{2}{c}{All India Engineering Entrance Examination \cftdotfill{\cftdotsep} 8th(B Arc) rank}\\
+		\vphantom{E}
+\end{tabular*}
+\end{center}\vspace*{-16pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{IIT DELHI THESIS}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{enumerate}
+ \item Optimising Forward Pass of CNN for Face Recognition \\
+ \begin{center}
+ \begin{tabular}{p{3cm} p{13cm} }
+ Supervisor& Prof. Kolin Paul  \\
+ Description& Static Timing Analysis (STA), FPGA / ASIC Design of a module to optimize the forward pass
+calculations for a given convolutional neural network and images as input \\
+Contribution& Implemented the FPGA design for the module to take Convolutional Neural Network and the input
+images and compute the following weight calculations for the forward pass of the convolutional neural given as
+input. Optimized area efficiency in implementation of the module. Tested on “Zynq board 7000”. \\
+\end{tabular}
+\end{center}
+
+ \item Analysis and Security check of the Apks which can be obtained from alternative Play Stores.
+ \begin{center}
+ \begin{tabular}{p{3cm} p{13cm} }
+ Supervisor& Prof. Kolin Paul\\
+ Description& To extract the permission which are asked in APK and raise security risks for the call graph generated and checking the malacious use of permission asked and not using any function call registered with the Permission asked.\\
+Contribution& Implemented a python application to extract the information form the apk to know the basic details
+of the apk. Then we used the function graphs which are generated using the call graph of the apk to find any possible
+security threats. We identified malicious application which had constants like phone number or web url to snitch
+information. We identified the permission gap between the apk listing and the permission used in the call graph of
+the application. \\
+\end{tabular}
+\end{center}
+
+\end{enumerate}
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{PROJECTS}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{enumerate}
+ \item PING PONG GAME\\
+ \begin{center}
+ \begin{tabular}{p{3cm} p{13cm} }
+ Supervisor& Prof.M. Balakrishnan  \\
+ Description& Implemented the ping pong game on the Spartan board With UART input and output. using game engine on the spartan Board. and UART to display the game on the vga output to display it on monitor and take key inputs from the keyboard. \\
+Contribution& Worked in team (2) to develop the Static Timing Analysis (STA), FPGA / ASIC Design of Ping Pong game. Learnt how to use UART to communicate with the spartan board and implemented the design to control the ping pong game
+with keyboard and display form vga port. We finally demonstrated the ping pong game with controls using keyboard
+and display through vga.
+\end{tabular}
+\end{center}
+
+ \item Face Recognition.
+ \begin{center}
+ \begin{tabular}{p{3cm} p{13cm} }
+ Supervisor& Prof. Kolin Paul\\
+ Description& Implement a low computational Face Recognition algorithm on Intel Galileo board.\\
+Contribution& Worked solo to list out all the low computational Face Recognition algorithms and implement the Face Recognition on the assigned board. Face Recognition using CNN and Pre-computed neural network with sample image. Big over
+head of computing CNN net and give weights as input to the circuit. Fast computation in forward pass of CNN net.\\
+\end{tabular}
+\end{center}
+
+\item Robot Navigation.
+ \begin{center}
+ \begin{tabular}{p{3cm} p{13cm} }
+ Supervisor& Prof. P. V. Madhusudhan Rao\\
+ Description& Given rectangular terrain with polygon obstacles, start point and end point, to compute the nearest path through terrain.\\
+Contribution&Worked in team (2) to simulate the robot navigation in rectangular terrain with polygon obstacles in shortest path from start point to end point. We first read all the algorithms to find the best path. Then we opted to pick A*
+Algorithm to plot the shortest path from start to end point. Then we simulated the whole process using Matlab.\\
+\end{tabular}
+\end{center}
+
+\item Library Management Application.
+ \begin{center}
+ \begin{tabular}{p{3cm} p{13cm} }
+ Supervisor& Prof. Maya Ramanath\\
+ Description& Developing an application for managing the booking of books form library and maintaining the record of the books which are available at the library and which are in queue to be issued to the people who are registered through
+application.\\
+Contribution&Worked in team (3) to develop the model using E-R Diagrams and then implementing the total idea and model into PostgreSQL and then use PhP to handle the database calls and Triggers. Finally we submitted the working Library
+Management Application with the following features. Register, maintain cart to add and remove books of interest,
+Check out, Check In, Bill payment, Registering and maintaining of the books in the LMS.\\
+\end{tabular}
+\end{center}
+
+ \item Data Visualization.
+ \begin{center}
+ \begin{tabular}{p{3cm} p{13cm} }
+ Supervisor& Prof. Aaditeshwar Seth\\
+ Description&Given data of the conduct and actions of the people of 15th Loksabha. Derive implication out of the given data using data visualization (PREFUSE JAVA).\\
+Contribution&Worked in team (3) to create java applet to present the data using PREFUSE java library and got some
+implication of the data collected. Finally we presented an application to show the interactive info graphics. In
+extension of project developed website to show info graphics and the conclusions driven from the data provided.\\
+\end{tabular}
+\end{center}
+
+\item Racing Car Game.
+ \begin{center}
+ \begin{tabular}{p{3cm} p{13cm} }
+ Supervisor& Prof. Prem Kalra\\
+ Description&Develop Game Engine, Physics Engine and Graphics for Racing Car Game. Objective was to make the racing game as real as possible with real time physical conditions.\\
+Contribution&Worked solo to develop Racing Game. Worked in openGl C++ library, and implemented the Game
+Engine and Physics Engine to control the objects in the view port of camera used in game. Implemented track design
+builder with texture mapping and depth mapping using grey level to depth map in landscape building. Worked in
+blender to develop the models and imported them as mesh to render in openGl lib in c++.\\
+\end{tabular}
+\end{center}
+\end{enumerate}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Internship}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+ \begin{tabular}{p{3cm} p{13cm} }
+ Company& BMS WEBTECH PRIVATE LIMITED (20 th May 2014 to 30 th July 2014)\\
+ Description&Android Application development.\\
+Contribution&Worked in Team (4) to develop and design the Android application. Got familiar with the project
+developed so far and then worked with the team to draw new branches to the mother application and patch it with
+the main application after a series of tests. We also designed UI/UX for the application. We worked on already
+developed (partially) ecommerce application for medical appliance. Finally we changed the look and feel of the
+application and we have removed the inherent web views which were directly used in native android application
+derived from the website. We developed needy features for the application.\\
+\end{tabular}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{POSITION OF RESPONSIBILITY}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{enumerate}
+ \item Board for Student Welfare Representative\\
+ \begin{center}
+ \begin{tabular}{p{3cm} p{13cm} }
+ Description& To have insight of student grievances and to work in group to solve the problems faced by students.
+To conduct the B.S.W fest called Speranza ‘12.\\
+Contribution& Have sorted out the problem of getting question papers by extracting the question papers and
+sorting them into the respective domains, finally hosted a repository to get the previous year’s question papers for
+both major and minor. Worked for Development of conditions in Student Activity Centre. Worked in Team to host
+B.S.W Fest called Speranza ‘12.
+\end{tabular}
+\end{center}
+\item Volunteer VR1 forever Charitable Trust..
+ \begin{center}
+ \begin{tabular}{p{3cm} p{13cm} }
+ Description&Acted as volunteer of VR1 during Speranza ’12 at IIT DELHI in Various activities like Workshop,
+Marathon, Stall etc.\\
+Contribution&Instructed the NGO VR1forever Charitable Trust from A.P to Delhi. Coordinated and Volunteered in
+Workshop, Stall and conducted the Marathon run, Etc. for Fund raiser event in Speranza ’12.\\
+\end{tabular}
+\end{center}
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{EXPERIENCE}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{enumerate}
+ \item Android Developer\\
+ \begin{center}
+ \begin{tabular}{p{3cm} p{13cm} }
+ Description& Joined Start Up Otracko\\
+Contribution& Have worked for the Otrako as android Developer for the development of the android application. Coded the android application for the web application which has been already developed. Have made a prototype using the webviews and then converted the web application into the native android code.
+\end{tabular}
+\end{center}
+\item Full-end Developer
+ \begin{center}
+ \begin{tabular}{p{3cm} p{13cm} }
+ Description& Joined Start Up Optana\\
+Contribution& Working with the company elkosta security system to develop a GPS Device(Iconcox GT800) communication Protocol for communication with the server. This was a TCP communication which the device has some norms and allowed bidirectional communication from server and the terminal which is installed in the car for security and warnings to the clients who want to monitor the device. Working with them to develop navigation from the callerID and the signal strength.\\
+\end{tabular}
+\end{center}
+\item Developer
+ \begin{center}
+ \begin{tabular}{p{3cm} p{13cm} }
+ Description& Co-founded Start Up EBEE IT SOLUTIONS PVT LTD (OPC)\\
+Contribution& Started Free Lancing in my 2nd year. Started as beginner Android and iOS developer. published Tempest 14 iOS application in app store. and few other application in the play store.\\
+\end{tabular}
+\end{center}
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{TECHNICAL SKILLS}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Java, C, C++, Java Script, SQL, Android, iOS, Web Technologies, Design and Project Management, Algorithms, Software Security, good command over Development Tools, Debugging, VHDL, Verilog, VLSI Design, FPGA Design, ASIC Design, Transistor modelling(using NGSPICE) , TCAD, EDA, IOT, ML , VR , AR , OpenGL, OpenHDL, Ocaml, Fortarn, MavLink, RasberryPi, Edision, Zynq xillinx Board.
+
+\end{document}
+
