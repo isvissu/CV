@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.11.28)  29 NOV 2017 00:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.11.28)  29 NOV 2017 00:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -24,15 +24,7 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 \outerbordwidth=\skip43
-
-
-! LaTeX Error: File `xcolor.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: xcolor/xcolor.sty
-(./xcolor/xcolor.sty
+ (./xcolor.sty
 Package: xcolor 2004/07/04 v2.00 LaTeX color extensions (UK)
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
@@ -56,31 +48,182 @@ Package xcolor Info: Color model `hsb' added on input line 980.
 Package xcolor Info: Color model `HTML' added on input line 1000.
 Package xcolor Info: Color model `HSB' added on input line 1006.
 Package xcolor Info: Color model `Gray' added on input line 1012.
+ (./svgnam.def
+File: svgnam.def 2004/07/04 v2.00 Predefined color names according to SVG 1.1 (
+UK)
+)) (./framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip44
+\fb@frw=\dimen103
+\fb@frh=\dimen104
+\FrameRule=\dimen105
+\FrameSep=\dimen106
+) (./tocloft.sty
+Package: tocloft 1999/09/19 v1.0 parameterised ToC, etc., typesetting
+ (./stdclsdv.sty
+Package: stdclsdv 1999/01/18 v1.0 Sectional divisions
+)
+\cftbeforetoctitleskip=\skip45
+\cftaftertoctitleskip=\skip46
+\cftbeforepartskip=\skip47
+\cftpartnumwidth=\skip48
+\cftbeforechapskip=\skip49
+\cftchapindent=\skip50
+\cftchapnumwidth=\skip51
+\cftbeforesecskip=\skip52
+\cftsecindent=\skip53
+\cftsecnumwidth=\skip54
+\cftbeforesubsecskip=\skip55
+\cftsubsecindent=\skip56
+\cftsubsecnumwidth=\skip57
+\cftbeforesubsubsecskip=\skip58
+\cftsubsubsecindent=\skip59
+\cftsubsubsecnumwidth=\skip60
+\cftbeforeparaskip=\skip61
+\cftparaindent=\skip62
+\cftparanumwidth=\skip63
+\cftbeforesubparaskip=\skip64
+\cftsubparaindent=\skip65
+\cftsubparanumwidth=\skip66
+\cftbeforeloftitleskip=\skip67
+\cftafterloftitleskip=\skip68
+\cftbeforefigskip=\skip69
+\cftfigindent=\skip70
+\cftfignumwidth=\skip71
+\cftbeforelottitleskip=\skip72
+\cftafterlottitleskip=\skip73
+\cftbeforetabskip=\skip74
+\cfttabindent=\skip75
+\cfttabnumwidth=\skip76
+) (./my.aux)
+\openout1 = `my.aux'.
 
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
 
-! LaTeX Error: File `svgnam.def' not found.
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count88
+\scratchdimen=\dimen107
+\scratchbox=\box26
+\nofMPsegments=\count89
+\nofMParguments=\count90
+\everyMPshowfont=\toks14
+\MPscratchCnt=\count91
+\MPscratchDim=\dimen108
+\MPnumerator=\count92
+\makeMPintoPDFobject=\count93
+\everyMPtoPDFconversion=\toks15
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 56.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 56.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 56.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 69.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: def)
+! Undefined control sequence.
+<argument> l@{\cftdotfill 
+                          {\cftsecdotsep }\extracolsep {\fill }}r
+l.69 ...in Computer Science and Engineering}{2017}
+                                                  
+? 
+! Undefined control sequence.
+<argument> l@{\cftdotfill 
+                          {\cftsecdotsep }\extracolsep {\fill }}r
+l.76 ...Intermediate first and second year }{2011}
+                                                  
+? 
+! Undefined control sequence.
+<argument> l@{\cftdotfill 
+                          {\cftsecdotsep }\extracolsep {\fill }}r
+l.77 ...{Vijayawada, India}{ Senior School }{2009}
+                                                  
+? 
+! Undefined control sequence.
+\@sharp ->South Indian Maths Olympaid \cftdotfill 
+                                                  {\cftdotsep } 11th rank
+l.86 ...lympaid \cftdotfill{\cftdotsep} 11th rank}
+                                                  \\
+? 
+! Undefined control sequence.
+\@sharp ->Indian Chemistry Olympaid \cftdotfill 
+                                                {\cftdotsep } qualified for ...
+l.87 ...alified for the Indian Chemistry Olympaid}
+                                                  \\
+? 
+! Undefined control sequence.
+\@sharp ->Joint Entrance Examination \cftdotfill 
+                                                 {\cftdotsep } 37th(SC) rank
+l.88 ...ion \cftdotfill{\cftdotsep} 37th(SC) rank}
+                                                  \\
+? 
+! Undefined control sequence.
+\@sharp ...ering Entrance Examination \cftdotfill 
+                                                  {\cftdotsep } 8th(B Arc) rank
+l.89 ...n \cftdotfill{\cftdotsep} 8th(B Arc) rank}
+                                                  \\
+? 
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+[1
 
-Enter file name: X
-
- ) )
-(\end occurred when \ifx on line 1091 was incomplete)
-(\end occurred when \ifx on line 1091 was incomplete)
-(\end occurred when \ifx on line 7 was incomplete) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+ [3]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [4] (./my.aux) ) 
 Here is how much of TeX's memory you used:
- 912 strings out of 495028
- 11088 string characters out of 6181496
- 66564 words of memory out of 5000000
- 4194 multiletter control sequences out of 15000+600000
- 3940 words of font info for 15 fonts, out of 8000000 for 9000
+ 1671 strings out of 495028
+ 21574 string characters out of 6181496
+ 88397 words of memory out of 5000000
+ 4919 multiletter control sequences out of 15000+600000
+ 7928 words of font info for 28 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 22i,1n,40p,212b,45s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-No pages of output.
+ 24i,9n,38p,486b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on my.pdf (4 pages, 92812 bytes).
 PDF statistics:
- 0 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
