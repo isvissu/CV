@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.11.28)  29 NOV 2017 00:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.29)  1 FEB 2019 10:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **my.tex
 (./my.tex
-LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 5 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -27,21 +27,13 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
  (./xcolor.sty
 Package: xcolor 2004/07/04 v2.00 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 136.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count87
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Color model `cmy' added on input line 972.
 Package xcolor Info: Color model `hsb' added on input line 980.
@@ -87,8 +79,8 @@ Package tocloft Info: The document has section divisions on input line 51.
 \cftbeforefigskip=\skip68
 \cftfigindent=\skip69
 \cftfignumwidth=\skip70
-\c@lofdepth=\count88
-\c@lotdepth=\count89
+\c@lofdepth=\count87
+\c@lotdepth=\count88
 \cftbeforelottitleskip=\skip71
 \cftafterlottitleskip=\skip72
 \cftbeforetabskip=\skip73
@@ -110,18 +102,18 @@ LaTeX Font Info:    ... okay on input line 54.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count90
+\scratchcounter=\count89
 \scratchdimen=\dimen107
 \scratchbox=\box26
-\nofMPsegments=\count91
-\nofMParguments=\count92
+\nofMPsegments=\count90
+\nofMParguments=\count91
 \everyMPshowfont=\toks14
-\MPscratchCnt=\count93
+\MPscratchCnt=\count92
 \MPscratchDim=\dimen108
-\MPnumerator=\count94
-\makeMPintoPDFobject=\count95
+\MPnumerator=\count93
+\makeMPintoPDFobject=\count94
 \everyMPtoPDFconversion=\toks15
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -132,117 +124,81 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 56.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 69.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
 
 ! Undefined control sequence.
-\cftdotfill #1->\def \@tempa 
-                             {#1}\def \@tempb {\cftnodots }\ifx \@tempa \@te...
-l.69 ...in Computer Science and Engineering}{2017}
+\@tempa ->\catcode `\<
+                      12\relax \catcode `\>12\relax \catcode `\=12\relax 
+l.69 ...omputer Science and Engineering}{5.589/10}
                                                   
 ? 
 ! Undefined control sequence.
 \cftdotfill #1->\def \@tempa {#1}\def \@tempb 
                                               {\cftnodots }\ifx \@tempa \@te...
-l.69 ...in Computer Science and Engineering}{2017}
+l.69 ...omputer Science and Engineering}{5.589/10}
                                                   
 ? 
 ! Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.69 ...in Computer Science and Engineering}{2017}
+l.69 ...omputer Science and Engineering}{5.589/10}
                                                   
 ? 
 ! Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.69 ...in Computer Science and Engineering}{2017}
-                                                  
-? 
-! Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.69 ...in Computer Science and Engineering}{2017}
-                                                  
-? 
-! Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.69 ...in Computer Science and Engineering}{2017}
+l.69 ...omputer Science and Engineering}{5.589/10}
                                                   
 ? 
 ! Undefined control sequence.
-\cftdotfill #1->\def \@tempa 
-                             {#1}\def \@tempb {\cftnodots }\ifx \@tempa \@te...
-l.76 ...Intermediate first and second year }{2011}
+\@tempa ->\catcode `\<
+                      12\relax \catcode `\>12\relax \catcode `\=12\relax 
+l.76 ...rmediate first and second year }{876/1000}
                                                   
 ? 
 ! Undefined control sequence.
 \cftdotfill #1->\def \@tempa {#1}\def \@tempb 
                                               {\cftnodots }\ifx \@tempa \@te...
-l.76 ...Intermediate first and second year }{2011}
+l.76 ...rmediate first and second year }{876/1000}
                                                   
 ? 
 ! Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.76 ...Intermediate first and second year }{2011}
+l.76 ...rmediate first and second year }{876/1000}
                                                   
 ? 
 ! Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.76 ...Intermediate first and second year }{2011}
-                                                  
-? 
-! Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.76 ...Intermediate first and second year }{2011}
-                                                  
-? 
-! Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.76 ...Intermediate first and second year }{2011}
+l.76 ...rmediate first and second year }{876/1000}
                                                   
 ? 
 ! Undefined control sequence.
-\cftdotfill #1->\def \@tempa 
-                             {#1}\def \@tempb {\cftnodots }\ifx \@tempa \@te...
-l.77 ...{Vijayawada, India}{ Senior School }{2009}
+\@tempa ->\catcode `\<
+                      12\relax \catcode `\>12\relax \catcode `\=12\relax 
+l.77 ...da, India}{ Senior School (CBSE)}{402/500}
                                                   
 ? 
 ! Undefined control sequence.
 \cftdotfill #1->\def \@tempa {#1}\def \@tempb 
                                               {\cftnodots }\ifx \@tempa \@te...
-l.77 ...{Vijayawada, India}{ Senior School }{2009}
+l.77 ...da, India}{ Senior School (CBSE)}{402/500}
                                                   
 ? 
 ! Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.77 ...{Vijayawada, India}{ Senior School }{2009}
+l.77 ...da, India}{ Senior School (CBSE)}{402/500}
                                                   
 ? 
 ! Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.77 ...{Vijayawada, India}{ Senior School }{2009}
-                                                  
-? 
-! Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.77 ...{Vijayawada, India}{ Senior School }{2009}
-                                                  
-? 
-! Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.77 ...{Vijayawada, India}{ Senior School }{2009}
+l.77 ...da, India}{ Senior School (CBSE)}{402/500}
                                                   
 ? 
 Missing character: There is no â in font cmr10!
@@ -270,25 +226,31 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [4] (./my.aux) ) 
+ [4]
+Underfull \hbox (badness 1635) in paragraph at lines 315--316
+[]\OT1/cmr/m/n/10.95 developing the ar-chite-ture of as-inc dezine in ver-log a
+nd VHDL over
+ []
+
+[5] (./my.aux) ) 
 Here is how much of TeX's memory you used:
- 1746 strings out of 495028
- 22613 string characters out of 6181496
- 91908 words of memory out of 5000000
- 4997 multiletter control sequences out of 15000+600000
+ 1518 strings out of 494880
+ 19374 string characters out of 6179601
+ 86520 words of memory out of 5000000
+ 4888 multiletter control sequences out of 15000+600000
  7928 words of font info for 28 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 36 hyphenation exceptions out of 8191
  24i,9n,38p,486b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on my.pdf (4 pages, 92786 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on my.pdf (5 pages, 95612 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 44 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
